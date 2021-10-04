@@ -1,7 +1,7 @@
 import { createTheme, ThemeProvider } from '@material-ui/core/styles';
 import logo from './logo.svg';
 import './App.css';
-import CustonBtn from './components/CustonBtn';
+import NavBar from './components/NavBar';
 
 const theme = createTheme({
   palette: {
@@ -33,7 +33,7 @@ function App() {
   return (
     <div className="App">
       <ThemeProvider theme={theme}>
-       
+        <NavBar/>
       </ThemeProvider>
     </div>
   );
