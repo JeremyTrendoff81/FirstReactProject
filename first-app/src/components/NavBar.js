@@ -1,6 +1,5 @@
 import React from 'react'
 import CustonBtn from './CustonBtn'
-import logo from '../logo.svg'
 import { Toolbar, Typography } from '@material-ui/core'
 import { makeStyles } from '@material-ui/core/styles'
 
