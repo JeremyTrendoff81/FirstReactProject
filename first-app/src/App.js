@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './components/NavBar';
 import Grid from './components/Grid';
 import { Typography } from '@material-ui/core';
+import Footer from './components/Footer';
 
 import SecurityIcon from '@material-ui/icons/Security'
 import EventNoteIcon from '@material-ui/icons/EventNote'
@@ -81,6 +82,10 @@ function App() {
           <Grid icon={<SecurityIcon style={{fill:"#512D6D", height: "125", width: "125"}}/>} title="Secure" btnTitle="Show Me More"/>
           <Grid icon={<EventNoteIcon style={{fill:"#002855", height: "125", width: "125"}}/>} title="Reliable" btnTitle="Show Me More"/>
           <Grid icon={<TrendingUpIcon style={{fill:"#B4B5DF", height: "125", width: "125"}}/>} title="Performant" btnTitle="Show Me More"/>
+        </div>
+
+        <div className={classes.bigSpace}>
+          <Footer/>
         </div>
         
       </ThemeProvider>
